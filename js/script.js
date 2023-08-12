@@ -85,7 +85,6 @@ let blockClock = document.querySelector(".clock");
 let inp = document.querySelector("input");
 let btn = document.querySelector("button");
 let clock_new = new WorldClock("#397c71e0", "round");
-let clock = document.querySelector(".round");
 btn.addEventListener("click", getDate);
 
 function getDate(e) {
@@ -95,6 +94,6 @@ function getDate(e) {
    } else if (inp.value == 2) {
       blockClock.append(clock_new.getCurrentTime());
    } else if (inp.value == 3) {
-      clock.remove();
+      document.querySelector(".round").remove();
    }
 }
