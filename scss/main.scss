@@ -22,11 +22,25 @@ input {
    border-radius: 10px;
    text-decoration: none;
    text-transform: uppercase;
-   color: #143133;
    font-weight: 500;
    letter-spacing: 1px;
    box-shadow: 0 0 5px 0px #223e40;
    color: aliceblue;
+   &::-webkit-input-placeholder {
+      color: #b4babe;
+   }
+   &::-moz-placeholder {
+      color: #b4babe;
+   }
+   &:-ms-input-placeholder {
+      color: #b4babe;
+   }
+   &::-ms-input-placeholder {
+      color: #b4babe;
+   }
+   &::placeholder {
+      color: #b4babe;
+   }
    &:hover {
       background: linear-gradient(90deg, #2c2b2c, #9ea1a3);
    }
