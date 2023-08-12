@@ -1,0 +1,88 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: linear-gradient(184deg, #b4babe, #2c2b2c);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main {
+  padding: 30px 100px;
+}
+
+.btn,
+input {
+  min-width: 400px;
+  padding: 10px 38px;
+  background: linear-gradient(176deg, #363333, rgba(209, 234, 230, 0.8784313725));
+  border-radius: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #143133;
+  font-weight: 500;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0 0 5px 0px #223e40;
+          box-shadow: 0 0 5px 0px #223e40;
+  color: aliceblue;
+}
+.btn:hover,
+input:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#2c2b2c), to(#9ea1a3));
+  background: linear-gradient(90deg, #2c2b2c, #9ea1a3);
+}
+
+.fields {
+  margin-bottom: 50px;
+}
+
+.round {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btns {
+  width: 100px;
+  margin: 0 auto;
+}
+.btns_red {
+  background: red;
+}
+.btns_green {
+  background: green;
+}
+.btns_blue {
+  background: blue;
+}
+.btns button {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 20px;
+}/*# sourceMappingURL=main.min.css.map */
