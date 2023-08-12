@@ -96,4 +96,5 @@ function getDate(e) {
    } else if (inp.value == 3) {
       document.querySelector(".round").remove();
    }
+   inp.value = "";
 }
